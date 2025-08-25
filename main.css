@@ -46,14 +46,15 @@ button {
     letter-spacing: 0.5px;
     border: none;
     border-radius: 6px;
+    color: #fff;
     padding: 10px 20px;
     cursor: pointer;
     transition: background 0.2s, color 0.2s, box-shadow 0.2s;
 }
+
 button.cta {
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
-    color: #fff;
     border-radius: 50px;
 }
 
@@ -65,15 +66,11 @@ button.sendMessage {
     width: 220px;
     padding: 14px 0;
     background: rgba(0,136,169,1);
-    color: #fff;
     font-size: 1.1rem;
-    font-weight: 600;
     border-radius: 4px;
     letter-spacing: 2px;
     margin-top: 10px;
     align-self: flex-start;
-    transition: background 0.2s;
-    cursor: pointer;
     box-shadow: 0 2px 8px rgba(0,136,169,0.08);
 }
 
