@@ -7,27 +7,30 @@
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="login_register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@491&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="login">
-            <div class="box1 ">
+    <div class="container" >
+        <div class="login " id="login">
+            <div class="box1">
                 <h1>Hello , Welcome!</h1>
                 <p>Don't have an account?</p>
-                <button type="submit" class="register-switch">Register</button>
+                <button type="submit" class="register-switch switch">Register</button>
             </div>
-            <div class="box2 ">
+            <div class="box2">
                 <h1>Login</h1>
                 <div class="input-box">
                     <input type="text" id="Username" placeholder="Username">
-                    <i class='bxr  bx-user'  style='color:#000000'></i> 
+                    <i class='bxr  bxs-user'  style='color:#9ca3af'></i> 
                 </div>
                 <div class="input-box">
                     <input type="text" id="Password" placeholder="Password">
-                    <i class='bxr  bx-lock'  style='color:#000000'></i> 
+                    <i class='bxr  bxs-lock'  style='color:#9ca3af'></i> 
                 </div>
                 <div class="forgot-link">
-                    <a href="#">Forgot password?</a>
+                    <a href="#"><p>Forgot password?</p></a>
                 </div>
                 <button type="submit" class="login-button">Login</button>
                 <p>or login with social platforms</p>
@@ -38,25 +41,25 @@
                 </div>
             </div>
         </div>
-        <div class="registeration" hidden>
+        <div class="registration hidden" id="registration">
             <div class="box1 ">
                 <h1>Welcome Back!</h1>
                 <p>Already have an account?</p>
-                <button type="submit" class="login-switch">Login</button>
-            </div>
+                <button type="submit" class="login-switch switch">Login</button>
+            </div> 
             <div class="box2 ">
                 <h1>Registration</h1>
                 <div class="input-box">
                     <input type="text" id="Username" placeholder="Username">
-                    <i class='bxr  bx-user'  style='color:#000000'></i> 
+                    <i class='bxr  bxs-user'  style='color:#9ca3af'></i> 
                 </div>
                 <div class="input-box">
                     <input type="text" id="Email" placeholder="Email">
-                    <i class='bxr  bx-envelope'  style='color:#000000'></i> 
+                    <i class='bxr  bxs-envelope'  style='color:#9ca3af'></i> 
                 </div>
                 <div class="input-box">
                     <input type="text" id="Password" placeholder="Password">
-                    <i class='bxr  bx-lock'  style='color:#000000'></i> 
+                    <i class='bxr  bxs-lock'  style='color:#9ca3af'></i> 
                 </div>
                 <button type="submit" class="register-button">Register</button>
                 <p>or register with social platforms</p>
